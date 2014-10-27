@@ -8,12 +8,16 @@ Currently running on EC2 at `ec2-54-191-195-212.us-west-2.compute.amazonaws.com`
 
 | Name     | Description                 | Example                        |
 |----------|-----------------------------|--------------------------------|
-| `image`  | url of the image to convert | http://placekitten.com/200/300 |
+| `image`  | url of the image to convert | http://placekitten.com/330/444 |
 | `size`   | size to scale the image to  | 144x168                        |
 | `dither` | dither method to use        | FloydSteinberg                 |
 
 ## Example
 
 `http://ec2-54-191-195-212.us-west-2.compute.amazonaws.com/api?image=http://placekitten.com/330/444&size=144x168&dither=FloydSteinberg`
+
+| Before                                    | After                                    |
+|-------------------------------------------|------------------------------------------|
+| ![Before](http://i.imgur.com/uOZPP3X.jpg) | ![After](http://i.imgur.com/zmq9KsV.png) |
 
 [Try it!](http://ec2-54-191-195-212.us-west-2.compute.amazonaws.com/api?image=http://placekitten.com/330/444&size=144x168&dither=FloydSteinberg)
