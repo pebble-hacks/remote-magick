@@ -8,7 +8,7 @@ Currently running on EC2 at `ec2-54-191-195-212.us-west-2.compute.amazonaws.com`
 
 | Name     | Description                 | Example                        | Values                           |
 |----------|-----------------------------|--------------------------------|----------------------------------|
-| `image`  | url of the image to convert | http://placekitten.com/330/444 | url to any image on the internet |
+| `image`  | url of the image to convert | http://placekitten.com/330/444 | url of any image on the internet |
 | `size`   | size to scale the image to  | 144x168                        | matching `^\d+x\d+$`             |
 | `dither` | dither method to use        | FloydSteinberg                 | FloydSteinberg, Riemersma        |
 | `format` | format of output file       | png                            | png, pbi, h                      |
